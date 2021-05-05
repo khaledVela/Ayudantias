@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c0cceb-53a2-47a5-9604-da2db6f21920" name="Default Changelist" comment="Manejo de hilos con una esfera que crea a cada rato dando click" />
+    <list default="true" id="58c0cceb-53a2-47a5-9604-da2db6f21920" name="Default Changelist" comment="Manejo de hilos con una esfera que crea a cada rato dando click">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dibujo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ventana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dibujo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Figura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Ventana.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1s5dhBHx5r1T7TPjhK2WrfpSyL7" />
@@ -27,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hilos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620166503548</updated>
-      <workItem from="1620166504975" duration="2057000" />
+      <workItem from="1620166504975" duration="2357000" />
     </task>
     <task id="LOCAL-00001" summary="Manejo de hilos con una esfera que crea a cada rato dando click">
       <created>1620177653102</created>
@@ -80,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620177653102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Manejo de hilos con una esfera que crea a cada rato dando click">
+      <created>1620177703010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620177703010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
