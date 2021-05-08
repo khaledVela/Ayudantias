@@ -12,8 +12,12 @@ public class Multiplicacion {
             for (int i = 1; i <= 10; i++) {
                 conca = contador + "x" + i + "=";
                 System.out.println(conca + contador * i);
+
             }
             contador++;
+            if(contador>10){
+                break;
+            }
         }
     }
 }
