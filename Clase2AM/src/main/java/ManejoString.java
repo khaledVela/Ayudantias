@@ -63,6 +63,12 @@ public class ManejoString {
         letra=numero + letra ;//15 + sergggfsg= 15sergggfsg
         System.out.println("concatenacion de numero + letra: " + letra);
         System.out.println(letra.substring(0,2));
+
+        //Buscar la posicison de la letra
+        System.out.println("Posicion");
+        letra= teclado.nextLine();
+        numero= letra.indexOf("a");
+        System.out.println("la posicion de la primera letra a es: "+numero);
     }
 
 }
