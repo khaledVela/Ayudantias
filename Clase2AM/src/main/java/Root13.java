@@ -104,7 +104,7 @@ public class Root13 {
             }
             root13 = root13 + letra;
         }
-        System.out.println(user + ": "+ root13);
+        System.out.println(user +""+ root13);
 
         /* while (contador < numero) {
             letra = palabra.substring(contador, contador + 1);//0,1 1,2 2,3 3,4
