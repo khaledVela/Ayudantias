@@ -6,10 +6,10 @@ public class DeTodoUnPoco {
 
         Scanner teclado = new Scanner(System.in);
         String numero;
-        int numero1 = 0;//5
-        int numero2 = 0;//4
-        int numero3 = 0;//3
-        int aux;
+        int numero1 = 0;
+        int numero2 = 0;
+        int numero3 = 0;
+        int aux=0;
         boolean veri = false;
 
         // inicio
@@ -49,7 +49,7 @@ public class DeTodoUnPoco {
         aux = numero2;//4
         numero2 = numero1;//5
         numero1 = numero3;//3
-        numero3 = numero2;//4
+        numero3 = aux;//4
         System.out.println("El numero 1 es: " + numero1);
         System.out.println("El numero 2 es: " + numero2);
         System.out.println("El numero 3 es: " + numero3);
