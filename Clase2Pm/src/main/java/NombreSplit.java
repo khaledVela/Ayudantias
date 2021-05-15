@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nombre {
+public class NombreSplit {
     public static void main(String[] args) {
         String tex;
         String nombre;
@@ -11,13 +11,11 @@ public class Nombre {
 
         System.out.println("ingresa tu nombre");
         tex = teclado.nextLine();
-        num = tex.indexOf(" ");
-        nombre=tex.substring(0, num);
-        tex = tex.substring(num+1);
+        String separa[]=tex.split(" ");
+        num = separa.length;
+        for (int i=num-1;i>=0;i--){
+            nuevo= nuevo + " " + separa[i];
+        }
         System.out.println(nuevo);
-        num = tex.indexOf(" ");
-        inver = tex.substring(num+1);
-        tex=tex.substring(0, num);
-        System.out.println(inver+" "+tex+ " "+nombre);
     }
 }

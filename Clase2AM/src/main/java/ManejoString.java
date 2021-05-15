@@ -10,6 +10,7 @@ public class ManejoString {
         Scanner teclado = new Scanner(System.in);
 
 
+
         //Transformacion numero String - entero
         System.out.println("entero");
         letra=teclado.nextLine();
@@ -69,6 +70,14 @@ public class ManejoString {
         letra= teclado.nextLine();
         numero= letra.indexOf("a");
         System.out.println("la posicion de la primera letra a es: "+numero);
+
+        // uso del Split
+        System.out.println("split");
+        letra= teclado.nextLine();
+        String separa[]=letra.split(" ");
+        for (int i=0; i<separa.length;i++){
+            System.out.println(separa[i]);
+        }
     }
 
 }
