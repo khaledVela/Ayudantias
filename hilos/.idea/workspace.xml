@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/antigua pc/proyectos/Feria/FeriaPro2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,6 +44,17 @@
     <configuration name="Ventana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ventana" />
       <module name="Hilos_Serg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +76,7 @@
       <workItem from="1620166504975" duration="2057000" />
       <workItem from="1620178001236" duration="1860000" />
       <workItem from="1620187221765" duration="21000" />
+      <workItem from="1621455501564" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="Manejo de hilos con una esfera que crea a cada rato dando click">
       <created>1620177653102</created>
