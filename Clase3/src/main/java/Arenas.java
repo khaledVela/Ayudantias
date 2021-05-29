@@ -9,7 +9,7 @@ public class Arenas {
         boolean veri = false;
         Scanner teclado = new Scanner(System.in);
         while (veri == false) {
-            System.out.println("Ingrese un numero impar mayor a 5");
+            System.out.println("Ingrese un numero impar mayor a  5 \u001B[36m");
             numero = teclado.nextInt();
             if ((numero % 2 != 0) && (numero > 5)) {
                 veri = true;
