@@ -36,6 +36,9 @@ public class Menu {
                 case "salir":
                     Salir();
                     break;
+                case "tabla":
+                    Tb();
+                    break;
             }
         }
     }
@@ -61,14 +64,12 @@ public class Menu {
             if (general[0][i].equals(user)) {
                 System.out.println("ingrese las notas del 1º parcial");
                 general[1][i] = teclado.nextLine();
-                num += Integer.parseInt(general[1][i]);
                 System.out.println("ingrese las notas del 2º parcial");
                 general[2][i] = teclado.nextLine();
-                num += Integer.parseInt(general[2][i]);
                 System.out.println("ingrese las notas del final");
                 general[3][i] = teclado.nextLine();
-                num += Integer.parseInt(general[3][i]);
-                general[4][i] = (num / 3) + "";
+                num=(Integer.parseInt(general[1][i])+Integer.parseInt(general[2][i])+Integer.parseInt(general[3][i]))/3;
+                general[4][i] = num + "";
                 num = 0;
                 break;
             }
@@ -93,8 +94,10 @@ public class Menu {
         System.out.println("Ingrese el nombre del alumno");
         user = teclado.nextLine();
         for (int i = 0; i < alumno; i++) {
-            System.out.println("Promedio: " + general[4][i]);
-            break;
+            if (general[0][i].equals(user)) {
+                System.out.println("Promedio: " + general[4][i]);
+                break;
+            }
         }
     }
 
@@ -105,6 +108,16 @@ public class Menu {
             }
         }
         System.out.println("El promedio de la materia es: "+num);
+    }
+    public void Tb(){
+
+        for (int i = 0; i < general.length; i++) {
+            System.out.print("|");
+            for (int j=0; j<alumno; j++){
+                System.out.print(general[i][j]+"|");
+            }
+            System.out.println();
+        }
     }
     public boolean Salir(){
         return true;
