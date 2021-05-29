@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Menu {
     int alumno;
     String general[][];
+    String info[]={"Nombre","1ºPar ","2ºPar ","Fin   ","Prom  "};
     String user;
     String opcion;
     Scanner teclado = new Scanner(System.in);
@@ -113,6 +114,7 @@ public class Menu {
 
         for (int i = 0; i < general.length; i++) {
             System.out.print("|");
+            System.out.print(info[i]+"|");
             for (int j=0; j<alumno; j++){
                 System.out.print(general[i][j]+"|");
             }
