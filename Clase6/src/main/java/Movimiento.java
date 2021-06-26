@@ -61,6 +61,7 @@ public class Movimiento {
         if ((mov[0] == meta[0]) && (mov[1] == meta[1])) {
             salida = true;
             System.out.println("has escapado");
+
         } else {
             System.out.println("presione una tecla para moverse");
             tecla = teclado.nextLine();
@@ -99,6 +100,7 @@ public class Movimiento {
         } else {
             user[a - 1][b - 1] = " ";
             System.out.println("fallaste");
+
         }
     }
 
